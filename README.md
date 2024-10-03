@@ -14,7 +14,7 @@ This test focuses on both functional and boundary conditions to ensure that the 
 # Test Cases:
 | Test Case | Test Case ID | Test Description | Valid Input | Invalid Input | Expected Output | Actual Result | Status | Comment |
 | :-------- | ------------ | -------- | :-------: | :---: | -------  | ---- | ----- | ---- |
-| The input field of the calendar date generator | `TC-001` | Generates a chosen number of dates | 10 |   | Should generate 10 dates | Generated 10 dates | Pass |  |
+| The input field of the random date generator | `TC-001` | Generates a chosen number of dates | 10 |   | Should generate 10 dates | Generated 10 dates | Pass |  |
 |          | `TC-002` | Generates a chosen number of dates |  | -10 | Should not fall below 0 | It's scrolling below 0 | Fail | https://github.com/kattypatty/Random-Date-Generator-Test-Report/issues/1 |
 | Date output format field | `TC-003` | Generate date for the past date input | YYYY-MM-DD hh:mm:ss |   | 2020-08-12 04:15:18 | 2020-08-12 04:15:18 | Pass |  |
 | | `TC-004` | Generate date for future date input | MM-DD-YYYY |   | 02-17-2029 | 02-17-2029 | Pass |  |
