@@ -27,7 +27,7 @@ This test focuses on both functional and boundary conditions to ensure that the 
 |  | `TC-011` | Invalid date input handling with input days value |  | YYYY/MM/d  | Error Message | 2024/December/17 | Fail | https://github.com/kattypatty/Random-Date-Generator-Test-Report/issues/7 |
 |  | `TC-012` | Invalid date input handling with hours |  | YYYY/MM/DD h:mm:ss| 2022/12/09 4:07:05 | 2022/12/09 4:07:05 | Pass |  |
 |  | `TC-013` | Invalid date input handling with a month value |  | YYYY/mm/DD| 2022/12/09 |2022/48/19 | Fail | https://github.com/kattypatty/Random-Date-Generator-Test-Report/issues/8 |
-|  | `TC-014` | Invalid date input handling with the seconds value |  | YYYY/MM/DD h:mm:s | Error Message |2022/12/12 06:39:0 | Fail | https://github.com/kattypatty/Random-Date-Generator-Test-Report/issues/9 |
+|  | `TC-014` | Invalid date input handling with the seconds value |  | YYYY/MM/DD hh:mm:s | Error Message |2022/12/12 06:39:0 | Fail | https://github.com/kattypatty/Random-Date-Generator-Test-Report/issues/9 |
 
 
 # Bugs/Issues Found:
