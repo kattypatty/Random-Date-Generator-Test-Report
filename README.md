@@ -40,7 +40,7 @@ Bug ID | Test Case ID | Test Description | Priority | Status | Comment |
 |   BUG-005 | `TC-009` | The program doesn't generate a last day of the month  | High | To Do | https://github.com/kattypatty/Random-Date-Generator-Test-Report/issues/6|
 |   BUG-006 | `TC-0011` | The program generates days values with insufficient input value  | Medium | To Do | https://github.com/kattypatty/Random-Date-Generator-Test-Report/issues/7|
 |   BUG-007 | `TC-0013` | The program generates a random number of the months without of month boundary | High | To Do | https://github.com/kattypatty/Random-Date-Generator-Test-Report/issues/8|
-|   BUG-008 | `TC-0013` | The program generates seconds values with insufficient input value | Medium | To Do | https://github.com/kattypatty/Random-Date-Generator-Test-Report/issues/9|
+|   BUG-008 | `TC-0014` | The program generates seconds values with insufficient input value | Medium | To Do | https://github.com/kattypatty/Random-Date-Generator-Test-Report/issues/9|
 
 # Conclusion:
 Overall, the random date generator performs as expected for valid inputs, with the exception of leap day generation, and handles mostly edge cases other than the month-end day. As expected, the program doesn't handle invalid inputs or insufficient inputs. For other edge cases, additional testing is recommended to ensure long-term stability.
