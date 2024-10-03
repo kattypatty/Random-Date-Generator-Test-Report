@@ -19,7 +19,7 @@ This test focuses on both functional and boundary conditions to ensure that the 
 | Date output format field | `TC-003` | Generate date for the past date input | YYYY-MM-DD hh:mm:ss |   | 2020-08-12 04:15:18 | 2020-08-12 04:15:18 | Pass |  |
 | | `TC-004` | Generate date for future date input | MM-DD-YYYY |   | 02-17-2029 | 02-17-2029 | Pass |  |
 |  | `TC-005` | The correct result is not produced in the date output format field "Year Date Month" | Year Date Month |   | 2024 10 February | 2024 February 10 | Fail | https://github.com/kattypatty/Random-Date-Generator-Test-Report/issues/2 |
-|  | `TC-006` | Handle leap year date| YYYY/MM/DD |   | 2024/02/29 | 2024/02/28 | Fail |  |
+|  | `TC-006` | Handle leap year date| YYYY/MM/DD |   | 2024/02/29 | 2024/02/28 | Fail | https://github.com/kattypatty/Random-Date-Generator-Test-Report/issues/3 |
 | Custom date format use field | `TC-007` | Handle custom date format use | YYYY/month/DD |   | 2024/December/17 | 2024/Dece32ber/17 | Fail |  |
 
 
@@ -28,4 +28,5 @@ Bug ID | Test Case ID | Test Description | Priority | Status | Comment |
 | ----------- | ------ | --------- | ----- | ------- | ------ |
 |   BUG-001 | `TC-002` | The input field of the calendar date generator allows the user to scroll a negative number | High | To Do | https://github.com/kattypatty/Random-Date-Generator-Test-Report/issues/1 |
 |   BUG-002 | `TC-005` | The correct result is not produced in the date output format field "Year Date Month" | Medium | To Do | https://github.com/kattypatty/Random-Date-Generator-Test-Report/issues/2 |
-|   BUG-003 | `TC-005` | The correct result is not produced in the date output format field "Year Date Month" | Medium | To Do | https://github.com/kattypatty/Random-Date-Generator-Test-Report/issues/2 |
+|   BUG-003 | `TC-006` | The program doesn't generate a day of the leap year | Medium | To Do | https://github.com/kattypatty/Random-Date-Generator-Test-Report/issues/3 |
+|   BUG-004 | `TC-007` | The program doesn't generate a day of the leap year | Medium | To Do | https://github.com/kattypatty/Random-Date-Generator-Test-Report/issues/3 |
