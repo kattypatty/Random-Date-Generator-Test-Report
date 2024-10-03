@@ -24,6 +24,10 @@ This test focuses on both functional and boundary conditions to ensure that the 
 |  | `TC-008` | End of year boundary | 2022-12-31| | 2022-12-31 | 2022-12-31 | Pass |  |
 |  | `TC-009` | End of month boundary |2022-12-31| | Date genearator should generate a last day of the month | Date generator doesn't generate a result | Fail | https://github.com/kattypatty/Random-Date-Generator-Test-Report/issues/6 |
 | Custom date format use field | `TC-010` | Handle custom date format use | YYYY/month/DD |   | 2024/December/17 | 2024/Dece32ber/17 | Fail | https://github.com/kattypatty/Random-Date-Generator-Test-Report/issues/4 |
+|  | `TC-011` | Invalid date input handling |  | YYYY/MM/d  | 2024/December/d | 2024/December/17 | Fail |  |
+|  | `TC-012` | Invalid date input handling |  | YYYY/MM/DD h:mm:ss| 2022/12/09 4:07:05 | 2022/12/09 4:07:05 | Pass |  |
+|  | `TC-013` | Invalid date input handling |  | YYYY/mm/DD| 2022/12/09 |2022/48/19 | Fail |  |
+|  | `TC-014` | Invalid date input handling |  | YYYY/MM/DD h:mm:s | 2022/12/12 06:39:00 |2022/12/12 06:39:0 | Fail |  |
 
 
 # Bugs/Issues Found:
@@ -33,4 +37,4 @@ Bug ID | Test Case ID | Test Description | Priority | Status | Comment |
 |   BUG-002 | `TC-006` | The correct result is not produced in the date output format field "Year Date Month" | Medium | To Do | https://github.com/kattypatty/Random-Date-Generator-Test-Report/issues/2 |
 |   BUG-003 | `TC-005` | The program doesn't generate a day of the leap year | High | To Do | https://github.com/kattypatty/Random-Date-Generator-Test-Report/issues/3 |
 |   BUG-004 | `TC-0010` | The program doesn't handle correctly format date YYYY/month/DD in custom date  | High | To Do | https://github.com/kattypatty/Random-Date-Generator-Test-Report/issues/4|
-|   BUG-006 | `TC-0010` | The program doesn't handle correctly format date YYYY/month/DD in custom date  | High | To Do | https://github.com/kattypatty/Random-Date-Generator-Test-Report/issues/6|
+|   BUG-006 | `TC-0010` | The program doesn't generate a last day of the month  | High | To Do | https://github.com/kattypatty/Random-Date-Generator-Test-Report/issues/6|
